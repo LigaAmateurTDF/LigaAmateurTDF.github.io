@@ -1,0 +1,746 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  nav {
+    background-color: #13294b;
+  }
+
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px;
+  }
+
+  nav ul li a:hover {
+    color: #f3d250;
+  }
+
+  .content {
+    padding: 150px;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .logo {
+    width: 35%;
+    height: auto;
+  }
+
+  nav ul {
+    list-style-type: none;
+    display: inline-block;
+  }
+
+  nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  ul {
+    font-size: large;
+  }
+
+  li {
+    font-size: large;
+  }
+
+  nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140;
+  }
+
+  nav li:hover > ul {
+    display: block;
+  }
+
+  .imgf {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(img/futsal1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+ .logo2 {
+    width: 60%;
+    height: auto;
+    filter: drop-shadow(15px 15px 12px black);
+  }
+
+  .uno {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: url(img/gol.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .uno h1 {
+    margin-top: 35px;
+    font-size: 35px;
+    filter: drop-shadow(5px 8px 5px black);
+  }
+
+  .uno p {
+    margin-top: 35px;
+    font-size: 20px;
+    filter: drop-shadow(5px 8px 5px black);
+  }
+
+  .a {
+    text-align: center;
+    color:#ffffff;
+    margin: 0px;
+    padding: 30px;
+  }
+
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(5px 8px 5px black);
+  }
+
+  .square-button {
+    width: 20%;
+    height: auto;
+    margin-top: 10px;
+    border: 2px solid black;
+    background-color: #13294b;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 300%;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .square-button:hover {
+    background-color: #4d7ec7;
+  }
+
+  .button-contain {
+    justify-content: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    filter: drop-shadow(5px 8px 5px black);
+  }
+
+  .square-butto {
+    width: 200px;
+    height: 70px;
+    margin-top: 10px;
+    border: 2px solid black;
+    background-color: #13294b;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .square-butto:hover {
+    background-color: #4d7ec7;
+  }
+
+  .dos {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .dos h1 {
+    margin-top: 35px;
+    font-size: 35px;
+    filter: drop-shadow(5px 8px 5px black);
+  }
+
+  .dos p {
+    margin-top: 35px;
+    font-size: 20px;
+    filter: drop-shadow(5px 8px 5px black);
+  }
+
+  #contacto {
+    height: 15vh;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgb(9, 9, 48);
+    background-size: cover;
+  }
+
+  #contacto h1 {
+    margin-top: 20px;
+    font-size: 35px;
+    filter: drop-shadow(5px 8px 5px black);
+  }
+
+  #contactos {
+    color: #ffffff;
+    text-align: center;
+    background-color: rgb(9, 9, 48);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+
+  #contactos h1 {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+  #contactos p {
+    margin-top: 50px;
+    font-size: 18px;
+    filter: drop-shadow(5px 8px 5px black);
+  }
+
+  .mail {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(5px 8px 5px black);
+  }
+
+  .b {
+    text-align: center;
+    color:#ffffff;
+    margin: 0px;
+    padding: 30px;
+  }
+
+  h2 {
+    color:#ffffff ;
+  }
+
+  #tabla {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/gol.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #tabla h1 {
+    margin-top: 10px;
+    font-size: 35px;
+    filter: drop-shadow(5px 8px 5px black);
+  }
+
+  #sanciones {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #sanciones h1 {
+    margin-top: 10px;
+    font-size: 35px;
+    filter: drop-shadow(5px 8px 5px black);
+  }
+
+  #goleadores {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(img/fonpel.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #goleadores h1 {
+    margin-top: 10px;
+    font-size: 35px;
+    filter: drop-shadow(5px 8px 5px black);
+  }
+
+  #fixture {
+    color: #ffffff;
+    padding: 8px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(9, 9, 48);
+    background-size: cover;
+  }
+
+  #fixture h1 {
+    margin-top: 35px;
+    font-size: 35px;
+    filter: drop-shadow(5px 8px 5px black);
+  }
+
+  #fixtures {
+    height: 570vh;
+    padding: 10px;
+    padding-block: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(9, 9, 48);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .c {
+    text-align: center;
+    color:#ffffff;
+    margin: 0px;
+    padding: 30px;
+  }
+
+  footer {
+    background-color: #13294b;
+    color: #ffffff;
+    padding: 1%;
+  }
+  .nava{
+      color: white;
+  }
+.categoria-nav:hover{
+      color: #f3d250;
+  }
+  .navc {
+    background-color: #13294b;
+    padding: 15px;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 22px;
+  }
+
+  .navc ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navc li ul {
+    display: none;
+    position: absolute;
+    min-width: 140;
+  }
+
+  .table, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    background-color: white;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .table {
+    width: 100%;
+    height: auto;
+  }
+
+  th {
+    border: 3px solid black;
+    border-collapse: collapse;
+    background-color: #f3d250;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    background-color: lightcoral;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .table2 {
+    border: 3px solid black;
+    border-collapse: collapse;
+    width: 45%;
+    height: auto;
+    background-color: white;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .unos {
+    background-color: rgb(9, 9, 48);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .unos h1 {
+    margin-top: 35px;
+    font-size: 35px;
+  }
+
+  .unos p {
+    margin-top: 35px;
+    font-size: 20px;
+  }
+
+  .unor {
+    background-color: rgb(9, 9, 48);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .unor h1 {
+    margin-top: 35px;
+    font-size: 35px;
+  }
+
+  .unor p {
+    margin-top: 35px;
+    font-size: 20px;
+  }
+
+  #unopf {
+    height: 85vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    background: url(img/gol.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .tablacuartos {
+      border: none;
+      width: 80%;
+      height: auto;
+      background:none;
+      color: #ffffff;
+      font-size: 30px;
+    }
+
+  .tdpf{
+    padding: 2%;
+    border: none;
+    background: none;
+    color:#ffffff
+  }
+
+  .tdpfvs {
+    width: 0;
+    border: none;
+    background: none;
+    color:#ffffff
+  }
+
+  .tdpfg {
+    width: 10%;
+    border: none;
+    background: none;
+    color:#ffffff
+  }
+
+  .trpf {
+    border: none;
+    background: none;
+    color: #ffffff;
+  }
+
+  .tablacuartos {
+    margin-top: 20px;
+    filter: drop-shadow(5px 8px 5px black);
+  }
+
+  #unopf h1 {
+    margin-top: 35px;
+    font-size: 40px;
+  }
+
+  #dospf {
+    height: 120vh;
+    text-align: center;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    background: url(img/fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #dospf h1 {
+    margin-top: 35px;
+    font-size: 40px;
+  }
+
+  .tablassemi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tablasemi {
+    border: none;
+    width: 50%;
+    height: 30%;
+    background:none;
+    color: #ffffff;
+    font-size: 30px;
+  }
+
+.tdpfs{
+  border: none;
+  background: none;
+  color:#ffffff
+}
+
+.tdpfvss {
+  width: 0;
+  border: none;
+  background: none;
+  color:#ffffff
+}
+
+.tdpfgs {
+  width: 15%;
+  border: none;
+  background: none;
+  color:#ffffff
+}
+
+.trpfs {
+  border: none;
+  background: none;
+  color: #ffffff;
+}
+
+.tablasemi {
+  margin-top: 100px;
+  filter: drop-shadow(5px 8px 5px black);
+}
+
+#trespf {
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    background: url(img/fonpel.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #trespf h1 {
+    margin-top: 35px;
+    font-size: 40px;
+  }
+
+  .titulo {
+    display: block;
+    position: absolute;
+    text-align: center;
+  }
+
+  .tablafinal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tabladefinal {
+    border: none;
+    width: 80%;
+    height: 30%;
+    background:none;
+    color: #ffffff;
+    font-size: 30px;
+  }
+
+  .tabladefinal {
+    filter: drop-shadow(5px 8px 5px black);
+  }
+
+  #cuatropf {
+    height: 95vh;
+    display: flex;
+    color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: url(img/celeb.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  #cuatropf h1 {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    filter: drop-shadow(5px 8px 5px black);
+  }
+
+  #cuatropf p {
+    margin-top: 35px;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    filter: drop-shadow(5px 8px 5px black);
+  }
+
+  #cuatropf h2 {
+    text-align: center;
+    margin-top: -50px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    filter: drop-shadow(5px 8px 5px black);
+  }
+
+  .campeon {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    filter: drop-shadow(5px 8px 5px black);
+  }
+
+  .titulopf {
+    filter: drop-shadow(5px 8px 5px black);
+  }
+
+.tablacuartoscl {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    display: none;
+  }
+
+  .logo2 {
+    width: 100%;
+    height: auto;
+      }
+
+  footer {
+    background-color: #13294b;
+    color: #ffffff;
+    padding: 1%;
+    font-size: 70%;
+    text-align: center;
+    }
+
+  .table, td {
+    width: 100%;
+    height: auto;
+    }
+
+  .regl, .seg, .cont, .tabl, .sanc, .gole, .fix {
+    display: none;
+    }
+
+  .tablacuartos {
+    display: none;
+  }
+
+  .tablacuartoscl {
+    display: block;
+    border: none;
+    width: 60%;
+    height: auto;
+    background:none;
+    color: #ffffff;
+    font-size: 35px;
+  }
+
+.tdpfcl {
+  height: 80px;
+  border: none;
+  background: none;
+  color:#ffffff
+}
+
+.tdpfvscl {
+  border: none;
+  background: none;
+  color:#ffffff
+}
+
+.tdpfgcl {
+  border: none;
+  background: none;
+  color:#ffffff
+}
+
+.trpfcl {
+  border: none;
+  background: none;
+  color: #ffffff;
+}
+
+.tablacuartoscl {
+  margin-top: 15px;
+  filter: drop-shadow(5px 8px 5px black);
+}
+
+#unopf {
+height: 140vh;
+}
+
+.dos {
+  height: 80vh;
+}
+
+.button-container {
+  gap: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.square-button {
+  width: 16%;
+}
+
+.tdpfgs {
+  width: 0;
+  text-align: center;
+}
+
+.tdpfvss {
+  width: 0;
+  text-align: center;
+}
+
+.tabladefinal {
+  width: 10%;
+  height: auto;
+}
+
+.final1, .final2 {
+  width: 100;
+}
+
+.table2 {
+  width: 100%;
+}
+
+}
